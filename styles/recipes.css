@@ -1,28 +1,60 @@
+* {
+  /*outline: 2px solid rgba(255, 0, 0, 0.185);*/
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+@font-face {
+  font-family: viking;
+  src: url(../fonts/Acadian_Runes-Regular_PERSONAL_USE.ttf);
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-family: viking;
+  margin-top: 10px;
+  font-weight: 100;
+}
 body {
   display: flex;
   width: 100%;
   height: 100%;
-  margin: 0px;
+  background-color: #1e1d30;
 }
 
 .box-pie {
   height: auto;
   width: 500px;
-  margin: auto;
-  background-color: #f2e9c6;
-  border: 5px solid black;
+  margin: 50px auto;
   display: inline-block;
-}
-.background-pie {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: url(../images/seamless-strawberry-fruit-pattern-pixel-style_22359-12.jpg);
-  z-index: -1;
-  filter: blur(5px);
+  background-color: #121828;
 }
 
 .pie-img {
-  margin: auto;
+  margin: 20px auto;
   display: block;
+  border: 1px solid white;
+}
+
+.ingredients-pie {
+  width: 500px;
+  display: flex;
+  padding: 5px;
+}
+
+.filling {
+  width: 240px;
+  margin-left: 45px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.Ingredients {
+  width: 240px;
+  margin-left: 10px;
+  margin-right: 45px;
+  display: inline-block;
+}
+ul {
+  list-style: none;
 }

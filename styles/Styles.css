@@ -1,3 +1,10 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+
 @font-face {
   font-family: viking;
   src: url(../fonts/Acadian_Runes-Regular_PERSONAL_USE.ttf);
@@ -26,19 +33,20 @@ body {
 .title {
   font-family: viking;
   text-align: center;
-  color: white;
+  color: gold;
   font-weight: 300;
   font-size: 36px;
+  list-style: none;
 }
 
-ul li::marker {
-  color: transparent;
-}
 .links {
   font-size: 26px;
+  margin-top: 20px;
 }
+
 .link-1 a {
   color: #c91a31;
+  margin: 50px 0;
 }
 .link-2 a {
   color: #eeb450;
