@@ -1,13 +1,25 @@
-* {
-  /*outline: 2px solid rgba(255, 0, 0, 0.185);*/
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  color: white;
-}
 @font-face {
   font-family: viking;
   src: url(../fonts/Acadian_Runes-Regular_PERSONAL_USE.ttf);
+}
+@font-face {
+  font-family: pixel;
+  src: url(../fonts/pixel-win.ttf);
+}
+
+* {
+  /* outline: 2px solid rgba(255, 0, 0, 0.185); */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #98afc7;
+  font-family: pixel;
+  font-weight: 100;
+}
+.main-page {
+  width: 200px;
+  font-size: 10px;
+  display: inline;
 }
 h1 {
   text-align: center;
@@ -16,6 +28,11 @@ h1 {
   margin-top: 10px;
   font-weight: 100;
 }
+
+h2 {
+  color: white;
+}
+
 body {
   display: flex;
   width: 100%;
@@ -23,38 +40,64 @@ body {
   background-color: #1e1d30;
 }
 
-.box-pie {
+.box {
   height: auto;
-  width: 500px;
+  width: 600px;
   margin: 50px auto;
   display: inline-block;
   background-color: #121828;
+  border: 1px solid gray;
+  border-radius: 20px;
+  box-shadow: 0 0 17px ghostwhite;
 }
 
-.pie-img {
+.img {
   margin: 20px auto;
   display: block;
-  border: 1px solid white;
+  border: 1px solid gray;
 }
 
-.ingredients-pie {
-  width: 500px;
-  display: flex;
+.description h2 {
+  margin: 10px;
+  display: inline-block;
+}
+.description {
+  margin: 10px;
   padding: 5px;
 }
 
+.ingredients-pie {
+  width: 600px;
+  display: flex;
+  padding: 5px;
+  margin: 20px 0;
+}
+.filling h2 {
+  margin: 5px 0;
+}
 .filling {
-  width: 240px;
-  margin-left: 45px;
-  margin-right: 10px;
+  width: 200px;
+  margin: 0px 40px 0px auto;
   display: inline-block;
 }
+.Ingredients h2 {
+  margin: 5px 0px;
+}
 .Ingredients {
-  width: 240px;
-  margin-left: 10px;
-  margin-right: 45px;
+  width: 200px;
+  margin: 0px auto 0px 40px;
   display: inline-block;
 }
 ul {
   list-style: none;
+}
+ol {
+  padding-left: 25px;
+}
+.directions-pie {
+  margin: 20px;
+}
+.directions-pie li {
+  margin: 10px;
+  padding: 3px;
 }
