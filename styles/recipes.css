@@ -16,11 +16,7 @@
   font-family: pixel;
   font-weight: 100;
 }
-.main-page {
-  width: 200px;
-  font-size: 10px;
-  display: inline;
-}
+
 h1 {
   text-align: center;
   color: white;
@@ -66,7 +62,7 @@ body {
   padding: 5px;
 }
 
-.ingredients-pie {
+.ingredients-recipe {
   width: 600px;
   display: flex;
   padding: 5px;
@@ -88,16 +84,33 @@ body {
   margin: 0px auto 0px 40px;
   display: inline-block;
 }
+
+.Ingredients.cheesecake {
+  width: 150px;
+  margin: 0 10px;
+  display: inline-block;
+}
+.filling.cheesecake {
+  width: 200px;
+  margin: 0 10px;
+  display: inline-block;
+}
+.cake-top {
+  width: 150px;
+  margin: 0 10px;
+  display: inline-block;
+}
+
 ul {
   list-style: none;
 }
 ol {
   padding-left: 25px;
 }
-.directions-pie {
+.directions {
   margin: 20px;
 }
-.directions-pie li {
+.directions li {
   margin: 10px;
   padding: 3px;
 }
