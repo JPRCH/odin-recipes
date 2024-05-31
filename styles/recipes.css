@@ -8,7 +8,6 @@
 }
 
 * {
-  /* outline: 2px solid rgba(255, 0, 0, 0.185); */
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -42,15 +41,29 @@ body {
   margin: 50px auto;
   display: inline-block;
   background-color: #121828;
-  border: 1px solid gray;
   border-radius: 20px;
-  box-shadow: 0 0 17px ghostwhite;
+}
+.thor,
+.piebox {
+  box-shadow: 0 0 17px #c91a31;
+  border: 1px solid rgb(255, 112, 112);
+}
+
+.loki,
+.puddingbox {
+  box-shadow: 0 0 17px #eeb450;
+  border: 1px solid #f5c471;
+}
+
+.freya,
+.cakebox {
+  box-shadow: 0 0 17px #d38f8b;
+  border: 1px solid #d19592;
 }
 
 .img {
   margin: 20px auto;
   display: block;
-  border: 1px solid gray;
 }
 
 .description h2 {
