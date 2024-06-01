@@ -14,6 +14,15 @@
   color: #98afc7;
   font-family: pixel;
   font-weight: 100;
+  /* border: 1px solid red; */
+}
+.header a {
+  position: fixed;
+  width: 12%;
+  top: 10px;
+  left: 10px;
+  font-family: viking;
+  font-size: 20px;
 }
 
 h1 {
@@ -126,4 +135,18 @@ ol {
 .directions li {
   margin: 10px;
   padding: 3px;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  font-weight: 900;
+}
+a:active {
+  text-decoration: underline;
+  color: white;
 }
